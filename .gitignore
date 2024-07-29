@@ -1,54 +1,149 @@
-# Typically *NIX text editors, by default, append '~' to files on saving to make backups
-*~
+alex.smith@nucleussoftware.com
+Password: 1Qaz2Wsx3Edc4Rfv
 
-# Gradle work directory
-.gradle
+john.doe@nucleussoftware.com
+Password: 5Tgb6Yhn7Ujm8Ik9
 
-# Build output directies
-/target
-*/target
-*/**/target
-/build
-*/build
-testdb
-lib
+jane.doe@nucleussoftware.com
+Password: 0Lp9Oko8Ij7Uh6Yg
 
-# IntelliJ specific files/directories
-out
-.idea
-*.ipr
-*.iws
-*.iml
-atlassian-ide-plugin.xml
+michael.brown@nucleussoftware.com
+Password: Q1w2E3r4T5y6U7i8
 
-# Eclipse specific files/directories
-.classpath
-.project
-.settings
-.metadata
-bin
+emily.jones@nucleussoftware.com
+Password: 9Oo8Pp7Qq6Rr5Ss4
 
-# NetBeans specific files/directories
-.nbattrs
+chris.johnson@nucleussoftware.com
+Password: T1y2U3i4O5p6Q7w8
 
-# Miscellaneous
-*.log
-.clover
-.DS_Store
+patricia.williams@nucleussoftware.com
+Password: Z1x2C3v4B5n6M7a8
 
-# JBoss Transactions
-ObjectStore
+linda.rodriguez@nucleussoftware.com
+Password: K1j2H3g4F5d6S7a8
 
-# Profiler and heap dumps
-*.jps
-*.hprof
-/.nb-gradle/
+robert.lee@nucleussoftware.com
+Password: D1s2A3q4W5e6F7g8
 
-# Additional databases used in local envs
-databases/mysql/
-databases/postgis/
+james.martinez@nucleussoftware.com
+Password: H1j2K3l4M5n6B7v8
 
-# Vim
-*.swp
-*.swo
+barbara.garcia@nucleussoftware.com
+Password: N1m2B3v4C5x6Z7l8
 
+kevin.white@nucleussoftware.com
+Password: L1k2J3h4G5f6D7s8
+
+sarah.harris@nucleussoftware.com
+Password: P1o2I3u4Y5t6R7e8
+
+david.thompson@nucleussoftware.com
+Password: F1d2S3a4Q5w6X7c8
+
+susan.moore@nucleussoftware.com
+Password: R1e2W3q4A5s6Z7x8
+
+thomas.anderson@nucleussoftware.com
+Password: C1x2V3b4N5m6L7k8
+
+mary.jackson@nucleussoftware.com
+Password: M1n2B3v4C5x6K7j8
+
+daniel.martin@nucleussoftware.com
+Password: J1h2G3f4D5s6A7q8
+
+nancy.clark@nucleussoftware.com
+Password: Q1w2E3r4T5y6U7o8
+
+steven.walker@nucleussoftware.com
+Password: O1i2U3y4T5r6E7q8
+
+karen.hall@nucleussoftware.com
+Password: G1f2D3s4A5q6W7e8
+
+andrew.king@nucleussoftware.com
+Password: E1r2T3y4U5i6O7p8
+
+betty.hill@nucleussoftware.com
+Password: S1a2Q3w4E5d6X7c8
+
+joshua.wright@nucleussoftware.com
+Password: Y1t2R3e4W5q6A7s8
+
+angela.green@nucleussoftware.com
+Password: K1j2H3g4F5d6S7a8
+
+frank.allen@nucleussoftware.com
+Password: X1c2V3b4N5m6L7k8
+
+brenda.young@nucleussoftware.com
+Password: Z1x2C3v4B5n6M7l8
+
+justin.hernandez@nucleussoftware.com
+Password: F1d2S3a4Q5w6X7c8
+
+heather.hernandez@nucleussoftware.com
+Password: V1b2N3m4L5k6J7h8
+
+lisa.reed@nucleussoftware.com
+Password: D1s2A3q4W5e6F7g8
+
+eric.campbell@nucleussoftware.com
+Password: M1n2B3v4C5x6Z7a8
+
+terry.patterson@nucleussoftware.com
+Password: N1m2B3v4C5x6K7j8
+
+karen.murphy@nucleussoftware.com
+Password: J1h2G3f4D5s6A7q8
+
+ronald.james@nucleussoftware.com
+Password: P1o2I3u4Y5t6R7e8
+
+helen.russell@nucleussoftware.com
+Password: S1a2Q3w4E5d6X7c8
+
+laura.wood@nucleussoftware.com
+Password: T1y2U3i4O5p6Q7w8
+
+sharon.murphy@nucleussoftware.com
+Password: K1j2H3g4F5d6S7a8
+
+steven.johnson@nucleussoftware.com
+Password: H1j2K3l4M5n6B7v8
+
+amy.carter@nucleussoftware.com
+Password: Z1x2C3v4B5n6M7a8
+
+john.roberts@nucleussoftware.com
+Password: G1f2D3s4A5q6W7e8
+
+philip.rogers@nucleussoftware.com
+Password: Q1w2E3r4T5y6U7i8
+
+maria.bailey@nucleussoftware.com
+Password: V1b2N3m4L5k6J7h8
+
+joan.bell@nucleussoftware.com
+Password: Y1t2R3e4W5q6A7s8
+
+george.cooper@nucleussoftware.com
+Password: L1k2J3h4G5f6D7s8
+
+ashley.kelly@nucleussoftware.com
+Password: D1s2A3q4W5e6F7g8
+
+rachel.hughes@nucleussoftware.com
+Password: T1y2U3i4O5p6Q7w8
+
+anna.diaz@nucleussoftware.com
+Password: M1n2B3v4C5x6Z7a8
+
+kathy.morris@nucleussoftware.com
+Password: O1i2U3y4T5r6E7q8
+
+henry.ward@nucleussoftware.com
+Password: R1e2W3q4A5s6Z7x8
+
+donna.reed@nucleussoftware.com
+Password: P1o2I3u4Y5t6R7e8
