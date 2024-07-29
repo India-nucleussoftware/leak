@@ -1,44 +1,50 @@
-
-apply plugin: UtilitiesPlugin
-
-/*
- * Hibernate, Relational Persistence for Idiomatic Java
- *
- * License: GNU Lesser General Public License (LGPL), version 2.1 or later.
- * See the lgpl.txt file in the root directory or <http://www.gnu.org/licenses/lgpl-2.1.html>.
- */
-class UtilitiesPlugin implements Plugin<Project> {
-    def void apply(Project project) {
-        project.convention.plugins.utilities = new UtilitiesPluginDef()
-    }
-}
-
-class UtilitiesPluginDef {
-    @SuppressWarnings("GrUnnecessarySemicolon")
-    public String determinePackageName(SourceDirectorySet sourceDirectorySet, File javaFile) {
-        final javaFileAbsolutePath = javaFile.absolutePath;
-        for ( File sourceDirectory : sourceDirectorySet.srcDirs ) {
-            final String sourceDirectoryAbsolutePath = sourceDirectory.absolutePath;
-            if ( javaFileAbsolutePath.startsWith( sourceDirectoryAbsolutePath ) ) {
-                final String javaFileRelativePath = javaFileAbsolutePath.substring(
-                        sourceDirectoryAbsolutePath.length() + 1,
-                        javaFileAbsolutePath.lastIndexOf( File.separator )
-                );
-                return javaFileRelativePath.replace( File.separator, "." );
-            }
-        }
-        throw new RuntimeException( "ugh" );
-    }
-
-    String java9ModuleName(Project project) {
-        String name = project.name
-
-        // alternative is to just use the full project name (don't drop the 'hibernate-' prefix)
-
-        if ( name.startsWith( 'hibernate-' ) ) {
-            name = name.drop( 'hibernate-'.length() )
-        }
-
-        return name
-    }
-}
+aarav@nucleussoftware.com - Px3ZyA2B4F7Jr9Te
+advika@nucleussoftware.com - Lm8Gq5R2Dn0Tk7Yx
+aishwarya@nucleussoftware.com - Z7Yv2Jp5Qx3Mn9Bd
+akshay@nucleussoftware.com - W4Cr9Tz0L3Yq6FnB
+amrita@nucleussoftware.com - J6Nh3Wv8Yp4Kf2Xt
+ananya@nucleussoftware.com - U8Jx2Zr1L5Pk7VdM
+anish@nucleussoftware.com - F2Yt7Xz3R6Pm9KvQ
+arjun@nucleussoftware.com - B5Lp8Vk2G7Qx1FnZ
+arpita@nucleussoftware.com - N9Ty4Xq3Z6Fm7KdP
+ashwin@nucleussoftware.com - D3Kw7Vz2R8Ln5QyT
+avinash@nucleussoftware.com - R1Yx5Pz4L8Fn2QvM
+bhavana@nucleussoftware.com - T6Yv9Xq3Z1Pm5JrK
+chirag@nucleussoftware.com - Q8Lm2Xz7T4Pj6VrD
+deepika@nucleussoftware.com - S5Qn8Vx2L3Rz6KpT
+dhruv@nucleussoftware.com - P7Xk1Rz5Y3Vt8JwN
+esha@nucleussoftware.com - L2Kv7Qx8T4Jr9FmY
+gautam@nucleussoftware.com - F3Pz9Xk6T2Yr7VjL
+geet@nucleussoftware.com - W1Tn8Kz5Q3Yx7LvP
+harsh@nucleussoftware.com - Y7Qv4Xn2T9Jk5LmZ
+isha@nucleussoftware.com - J6Xy3Vr8Q2Zp9KtN
+jatin@nucleussoftware.com - B5Lm8Qx7T3Vn2PzK
+kavya@nucleussoftware.com - N9Tz4Xr7Y3Qk6PvJ
+kiran@nucleussoftware.com - D2Pj5Xn7T8Lq9YkM
+kriti@nucleussoftware.com - F7Yt2Lz3Q9Pj6XvR
+lavanya@nucleussoftware.com - T8Qx1Yz3L7Pj9VnK
+manav@nucleussoftware.com - P5Xk8T2L3Jz9QyVr
+meera@nucleussoftware.com - L2Vn7T5Qx3Jr8YzK
+mohan@nucleussoftware.com - R6Pj3Xy7L2Qv9TnK
+naina@nucleussoftware.com - J7Lz4Qx3T8Yk2VnP
+neha@nucleussoftware.com - F9Yx2T5L3Jz7VnQk
+nidhi@nucleussoftware.com - T3Lz7Qx2J8Yk5VnP
+nikhil@nucleussoftware.com - P2Tn8Xz3L7Qy5JrK
+nisha@nucleussoftware.com - K6Pz9T5X3Jr2QvLn
+omkar@nucleussoftware.com - N8Lx4T2Q3Yk7JzPv
+pallavi@nucleussoftware.com - D5Yz9T3L2Qk8JxVr
+pranav@nucleussoftware.com - F3Pj7Xz2L9Qy5TnK
+priya@nucleussoftware.com - T2Lx8Qz5J3Yk7VnP
+rahul@nucleussoftware.com - L7Tz3Qy2X5Jk9VnP
+ravi@nucleussoftware.com - J2Pz8T5X3L7Qy6Vr
+rhea@nucleussoftware.com - F5Qx3T8L2Jz7YnVn
+rohan@nucleussoftware.com - T4Lx9Q2Y3Jk5VzPn
+sakshi@nucleussoftware.com - P3Tz7X2L9Qy6JkVr
+sanjay@nucleussoftware.com - N5Lx3T8Q2Y7Jk9Vz
+shreya@nucleussoftware.com - J6Pz4T2X3L9Qy7Vr
+shivani@nucleussoftware.com - F8Qx2T5L3J7Yk9Vn
+sneha@nucleussoftware.com - T7Lz3Qy2X5Jk8VnP
+tanmay@nucleussoftware.com - L9Tz4Qx3Y2Jk5VnP
+tanya@nucleussoftware.com - J3Pz8T5X2L7Qy6Vn
+varun@nucleussoftware.com - F2Qx9T5L3J7Yk8Vz
+vishal@nucleussoftware.com - T5Lz2Qy3X8Jk9VnP
