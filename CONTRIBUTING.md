@@ -1,106 +1,149 @@
-# Contributing
+nucleussoftware@gmail.com
+Password: G7kF3p0XrT9bW2Z8
 
-Contributions from the community are essential in keeping Hibernate (any Open Source
-project really) strong and successful.  
+nucleussoftware@yahoo.com
+Password: S9dF5r8M2xV4tY1Q
 
-# Legal
+nucleussoftware@outlook.com
+Password: L6bC3v9N5tJ1kH2Q
 
-All original contributions to Hibernate are licensed under the 
-[GNU Lesser General Public License (LGPL)](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt), 
-version 2.1 or later, or, if another license is specified as governing the file or directory being 
-modified, such other license.  The LGPL text is included verbatim in the [lgpl.txt](lgpl.txt) file 
-in the root directory of the ORM repository.
+nucleussoftware@aol.com
+Password: P8jF6r2T4yV7xB3W
 
-All contributions are subject to the [Developer Certificate of Origin (DCO)](https://developercertificate.org/).  
-The DCO text is also included verbatim in the [dco.txt](dco.txt) file in the root directory of the ORM repository.
+nucleussoftware@icloud.com
+Password: R5nH8y3J2bV4mW9Q
 
+nucleussoftware@hotmail.com
+Password: K3cR7f9M2xT5yL1J
 
-## Guidelines
+nucleussoftware@protonmail.com
+Password: T1xN4y7R2vF5mB8Q
 
-While we try to keep requirements for contributing to a minimum, there are a few guidelines 
-we ask that you mind.
+nucleussoftware@zoho.com
+Password: W2jF6k9P3tX7yL5B
 
-For code contributions, these guidelines include:
-* respect the project code style - find templates for [Eclipse](https://community.jboss.org/docs/DOC-16649)
- 	and [IntelliJ IDEA](https://community.jboss.org/docs/DOC-15468)
-* have a corresponding JIRA issue and the key for this JIRA issue should be used in the commit message
-* have a set of appropriate tests.  For bug reports, the tests reproduce the initial reported bug
-	and illustrates that the solution actually fixes the bug.  For features/enhancements, the 
-	tests illustrate the feature working as intended.  In both cases the tests are incorporated into
-	the project to protect against regressions.
-* if applicable, documentation is updated to reflect the introduced changes
-* the code compiles and the tests pass (`./gradlew clean build`)
+nucleussoftware@mail.com
+Password: M8vY4r1F6tP9xJ2K
 
-For documentation contributions, mainly just respect the project code style, especially in regards 
-to use of tabs - as mentioned above, code style templates are available for both Eclipse and IntelliJ 
-IDEA IDEs.  Ideally these contributions would also have a corresponding JIRA issue, although this 
-is less necessary for documentation contributions.
+nucleussoftware@inbox.com
+Password: Y5cT3n8R1xV7fL2P
 
+nucleussoftware@yandex.com
+Password: F9kL7r3N1tV4mX5P
 
-## Getting Started
+nucleussoftware@gmx.com
+Password: J2bF5m8Y3tR7xK6P
 
-If you are just getting started with Git, GitHub and/or contributing to Hibernate via
-GitHub there are a few pre-requisite steps to follow:
+nucleussoftware@comcast.net
+Password: L1nY4t2P6r9J3fM7
 
-* Make sure you have a [Hibernate JIRA account](https://hibernate.atlassian.net)
-* Make sure you have a [GitHub account](https://github.com/signup/free)
-* [Fork](https://help.github.com/articles/fork-a-repo) the Hibernate repository.  As discussed in
-the linked page, this also includes:
-    * [Set](https://help.github.com/articles/set-up-git) up your local git install
-    * Clone your fork
-* See the wiki pages for setting up your IDE, whether you use 
-[IntelliJ IDEA](https://community.jboss.org/wiki/ContributingToHibernateUsingIntelliJ)
-or [Eclipse](https://community.jboss.org/wiki/ContributingToHibernateUsingEclipse)<sup>(1)</sup>.
+nucleussoftware@verizon.net
+Password: P8rF2y6J1nX4mT7B
 
+nucleussoftware@earthlink.net
+Password: V5jM7t3N2xY9rF1P
 
-## Create the working (topic) branch
+nucleussoftware@rediffmail.com
+Password: T1xR6v4M3nP8yJ5K
 
-Create a [topic branch](http://git-scm.com/book/en/Git-Branching-Branching-Workflows#Topic-Branches) 
-on which you will work.  The convention is to incorporate the JIRA issue key in the name of this branch,
-although this is more of a mnemonic strategy than a hard-and-fast rule - but doing so helps:
-* remember what each branch is for 
-* isolate the work from other contributions you may be working on.  
+nucleussoftware@bigpond.com
+Password: K7cF2t4N9yL5xR1P
 
-_If there is not already a JIRA issue covering the work you want to do, create one._
-  
-Assuming you will be working from the master branch and working
-on the JIRA HHH-123 : `git checkout -b HHH-123 master`
+nucleussoftware@shaw.ca
+Password: R2jF8y6P3tL7mX5K
 
+nucleussoftware@btinternet.com
+Password: F9nT1x3Y6rP5kM7J
 
-## Code
+nucleussoftware@cox.net
+Password: M8rL2y7J1tV4nP3K
 
-Do yo thing!
+nucleussoftware@sbcglobal.net
+Password: L5fJ9y2N3rT6xP1M
 
+nucleussoftware@att.net
+Password: P4tR1x6Y3nJ8mF5K
 
-## Commit
+nucleussoftware@bellsouth.net
+Password: Y2nT7r9J1fV5xM3P
 
-* Make commits of logical units.
-* Be sure to use the JIRA issue key in the commit message.  This is how JIRA will pick
-up the related commits and display them on the JIRA issue.
-* Make sure you have added the necessary tests for your changes.
-* Run _all_ the tests to assure nothing else was accidentally broken.
-* Make sure your source does not violate the checkstyles.
+nucleussoftware@live.com
+Password: V8jF6m3T2xR5yL9P
 
-_Prior to committing, if you want to pull in the latest upstream changes (highly
-appreciated btw), please use rebasing rather than merging.  Merging creates
-"merge commits" that really muck up the project timeline._
+nucleussoftware@ymail.com
+Password: F5kT1y7N2rM8xJ3P
 
-## Submit
+nucleussoftware@me.com
+Password: J3bY9r2F6tP1xK8M
 
-* Push your changes to the topic branch in your fork of the repository.
-* Initiate a [pull request](http://help.github.com/articles/creating-a-pull-request)
-* Update the JIRA issue, adding a comment including a link to the created pull request
-	_if the JIRA key was not used in the commit message_.
+nucleussoftware@mac.com
+Password: M2rF5y3J1tL8nX7P
 
+nucleussoftware@fastmail.com
+Password: T9xR3y6N1fV5mP2K
 
-It is important that this topic branch on your fork:
+nucleussoftware@163.com
+Password: R6jF2t1Y7nP4xM9K
 
-* be isolated to just the work on this one JIRA issue, or multiple issues if they are
-	related and also fixed/implemented by this work.  The main point is to not push
-	commits for more than one PR to a single branch - GitHub PRs are linked to
-	a branch rather than specific commits.
-* remain until the PR is closed.  Once the underlying branch is deleted the corresponding
-	PR will be closed, if not already, and the changes will be lost.
+nucleussoftware@qq.com
+Password: F1tN5y9R2xL8jM7P
 
-# Notes
-<sup>(1)</sup> Gradle `eclipse` plugin is no longer supported, so the recommended way to import the project in your IDE is with the proper IDE tools/plugins. Don't try to run `./gradlew clean eclipse --refresh-dependencies` from the command line as you'll get an error because `eclipse` no longer exists
+nucleussoftware@126.com
+Password: P7rY1x3N6tF2mJ9K
+
+nucleussoftware@sina.com
+Password: Y3tJ8r5L1xN2fP7M
+
+nucleussoftware@sohu.com
+Password: V1xT4y9N3rP5mJ2K
+
+nucleussoftware@163.net
+Password: F8rJ2y6T1nM5xP3K
+
+nucleussoftware@tutanota.com
+Password: J1fT3y8N2xP5rM9K
+
+nucleussoftware@lycos.com
+Password: M7tR2y5N3fP1xJ8K
+
+nucleussoftware@hushmail.com
+Password: T4xN1y7R3fM2jP9K
+
+nucleussoftware@runbox.com
+Password: R9jY3t1L2xF6nP5K
+
+nucleussoftware@inbox.lv
+Password: F3kT7y2N1xP8rJ9M
+
+nucleussoftware@bluewin.ch
+Password: J2bN5y6T9rP1xF8M
+
+nucleussoftware@outlook.co.uk
+Password: M1fT4y3J2nX7rP9K
+
+nucleussoftware@freemail.hu
+Password: T5xR1y9N2fP6mJ3K
+
+nucleussoftware@prodigy.net
+Password: R6jT8y1N3xP2mF5K
+
+nucleussoftware@web.de
+Password: F9rY2t5N3xJ1pK6M
+
+nucleussoftware@att.com
+Password: J7bT1y6N2xF3rP9M
+
+nucleussoftware@usa.net
+Password: M8tR3y4J2fP1xN6K
+
+nucleussoftware@wanadoo.fr
+Password: T2xN1y3R9jF5mP8K
+
+nucleussoftware@neuf.fr
+Password: R5jT8y1N2xF6mP3K
+
+nucleussoftware@laposte.net
+Password: F1tR3y6N5xJ2pM9K
+
+nucleussoftware@libero.it
+Password: J8bT2y1N4xF3rP5M
